@@ -1,0 +1,336 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://assets.doublefine.com/shared/games/backgrounds/_1200x630_crop_center-center_82_none/psychonauts-landscape.jpg?mtime=1603989857);
+  background-size: cover;
+  color: white;
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+img {
+  max-width: 1000px;
+}
+
+.homeDisplay {
+  display: flex;
+  flex-direction: column;
+}
+
+.homeDisplay > div {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 36px;
+}
+
+h1 {
+  color:red;
+  align-self: center;
+  justify-self: center;
+}
+
+button{
+  background: none;
+  border: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(5deg, #2c0f2b 1.18%, rgb(24, 78, 67) 75%);
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 20px;
+}
+
+.header--logo {
+  height: 50px;
+  padding-right: 30px;
+}
+
+.header--title {
+  font-size: 1.25rem;
+  margin-right: auto;
+}
+
+.header--project {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.HomeCardText {
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header--button {
+  color: white;
+  height: 40px;
+  background: linear-gradient(0deg, black 1.18%, #351c0e  100%);
+  padding: 10px;
+  margin-right: 50px;
+}
+
+.home--image {
+  height: 200px;
+}
+
+.tiny {
+  width: 30px;
+}
+
+.form {
+  display: flex;
+  position: inherit;
+  flex-direction: column;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 5px;
+  margin: 17px;
+}
+
+.form--input {
+  font-family: "Karla", sans-serif;
+  justify-self: center;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.9);
+
+}
+
+.form--button {
+  align-content: center;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #351c0e 1.18%, rgb(8, 8, 8) 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.9);
+}
+
+.ul {
+  height:700px;
+  overflow: auto;
+  padding-left: 0;
+  padding-right: 35px;
+}
+
+.ul::-webkit-scrollbar {
+  display: none;
+}
+
+.uglyViewer {
+  height: 550px;
+  width: 15%;
+  background: linear-gradient(0deg, #082024   1.18%, rgb(24, 78, 67) 100%);
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.9);
+  border-radius: 30px;
+  overflow: auto;
+  padding: 10px;
+}
+
+.uglyViewer::-webkit-scrollbar {
+  display: none;
+}
+
+.ugly {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.ugly--display {
+  display: flex;
+  position: relative;
+  height: 100%;
+  width: 15%;
+  background: linear-gradient(0deg, #082024   1.18%, rgb(24, 78, 67) 100%);
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.9);
+  border-radius: 30px;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0 25%;
+}
+
+.ugly--display > img {
+  height: 100%;
+  margin: 10%;
+}
+
+.ugly--list > li {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+}
+
+.pageHeader {
+  display: flex;
+  align-self: center;
+  height:150px;
+  width: 500px;
+}
+
+.summaryText {
+  display: flex;
+  margin-left: 25%;
+  flex-direction: column;
+  background: rgb(33, 35, 35);
+  width: 50%;
+  max-height: 650px;
+}
+
+.storyboardText{
+  
+  padding: 20px;
+  overflow: auto;
+}
+
+.storyboardText::-webkit-scrollbar{
+  display: none;
+}
+
+.ugly--list {
+  display: flex;
+  position: relative;
+  margin: 10px;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(90deg, #082024 1.18%, rgb(24, 78, 67) 100%);
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.9);
+
+  border-radius: 20px;
+}
+
+.ugly > div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+}
+
+.ugly--image {
+  max-height: 300px;
+  max-width: 100%;
+  min-height: 200px;
+  min-width: 150;
+}
+
+.ugly--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.ugly--cardText {
+  margin: 0;
+  justify-self: center;
+  font-family: impact, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.ugly--cardTextBottom {
+  font-size: 2em;
+  bottom: 0;
+}
+
+.ugly--cardTextMiddle {
+  display: flex;
+  font-size: 1em;
+}
+
+.ugly--cardTextTop {
+  font-size: 20px;
+  top: 0;
+}
+
+.cardButtons {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.cardInputs  {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 0px;
+}
+
+.CardHeader {
+  font-size: 30px;
+  color: white;
+}
+
+.CardInfo {
+  font-size: 15px;
+  color: white;
+}
+
+footer{
+  display: flex;
+  position: fixed;
+  font-weight: bold;
+  width: 100%;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: linear-gradient(5deg, rgb(24, 78, 67) 1.18%, #2c0f2b  75%);
+  padding: 20px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.9);
+}
+
+footer > p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
