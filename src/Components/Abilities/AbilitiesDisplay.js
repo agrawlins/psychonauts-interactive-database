@@ -34,6 +34,7 @@ const AbilitiesDisplay = () => {
                     {ability.description}
                 </div>
                 <div className="uglyViewer">
+                    <label>Select An Ability to Learn More!</label>
                     <ul className="ul">
                         {mappedAbilitiesList}
                     </ul>

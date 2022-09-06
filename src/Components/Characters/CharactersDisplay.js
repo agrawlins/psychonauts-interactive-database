@@ -43,6 +43,7 @@ const CharactersDisplay = () => {
                     </div>
                 </div>
                 <div className="uglyViewer"> 
+                    <label>Select a Character to Learn More!</label>
                     <ul className="ul">
                         {mappedCharacterList}
                     </ul>

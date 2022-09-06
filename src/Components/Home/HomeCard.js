@@ -10,11 +10,9 @@ const HomeCard = (props) => {
     const {PutOne, DeleteOne} = useContext(AxiosContext)
 
   return(
-      <div>
-        <div key={props.id} id ={props.id}>
-            <img src={homecard.imgUrl} className="ugly--image"/>
-            <h2 className="HomeCardText">{homecard.title}</h2>
-        </div>
+    <div key={props.id} id ={props.id}>
+      <img src={homecard.imgUrl} placeholder={props.title} className="home--image" />
+      <h2 className="HomeCardText">{homecard.title}</h2>
     </div>    
   )
 }

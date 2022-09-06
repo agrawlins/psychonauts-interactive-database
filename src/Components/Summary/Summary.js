@@ -4,7 +4,7 @@ import Logo from "../../Images/Summary-Logo-Color.png"
 const Summary = (props) => {
     alert("*Spoiler Alert!*\n This page contains the complete plot of the game. Proceed ONLY if you do not intend to play this game yourself!")
   return(
-    <div>
+    <div className="homeDisplay">
         <div className="pageHeader">
           <img src={Logo}/>
         </div>
